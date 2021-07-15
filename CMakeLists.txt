@@ -1,6 +1,6 @@
-project(zlib)
+cmake_minimum_required(VERSION 3.5)
 
-include_directories(zlib)
+project(zlib)
 
 file(GLOB
         ZLIB_SRC
